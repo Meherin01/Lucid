@@ -1,0 +1,94 @@
+@media(max-width:769px){
+    .hide_dsk{
+        display:block;
+    }
+    .hide_mb{
+        display: none;
+    }
+    .mobile{
+        position:static;
+        width: 50%;
+        margin: 40px auto 30px auto;
+    }
+    .content{
+        text-align: center;
+       padding-top: 5px;
+       padding-bottom: 35px;
+    }
+   .height{
+        flex-direction: column-reverse;
+    }
+    .navbar-nav{
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    .nav-link{
+        display: inline;
+    }
+    
+    .feature_item{
+        margin-bottom: 40px;
+    }
+    .mobile_two{
+        width: 70%;
+        margin: 0 auto 30px;
+    }
+    .slide_item p{
+        text-align: center;
+        }
+        .client{
+           justify-content: center;
+    }
+        .client_details p{
+            text-align: start;
+        }
+        .ad_section h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .align{
+            text-align: center !important;
+        }
+        .price_table{
+            margin-bottom: 30px;
+        }
+        .contact_section{
+            padding-bottom: 600px;
+        }
+        .form_box{
+            padding: 50px 30px;
+            width: 80%;
+        }
+        .map iframe{
+            height: 300px;
+        } 
+
+}
+@media(max-width:576px){
+   
+    .mobile_two{
+        width: 50%;
+        
+    }
+    
+}
+@media(max-width:426px){
+    .btn-download{
+        margin: 0 0 20px 0;
+        margin-left: 0 !important;
+    }
+    .content a{
+        margin-left: 20px;
+    }
+    .ad_section span, .ad_section h1{
+        font-size: 30px;
+    }
+    
+}
+@media(max-width:376px){
+    .content h1{
+        font-size: 35px;
+    }
+    
+}
